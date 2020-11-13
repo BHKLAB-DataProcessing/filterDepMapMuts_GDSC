@@ -8,7 +8,7 @@ library(GenomicRanges)
 inputDir <- "/pfs/input"
 outDir <- "/pfs/out"
 
-cellData <- read.csv(file.path(inputDir, "sample_info.csv")
+cellData <- read.csv(file.path(inputDir, "sample_info.csv"))
 
 
 allMuts <- fread(file.path(inputDir, "CCLE_mutations.csv"))
