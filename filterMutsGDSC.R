@@ -1,11 +1,11 @@
 library(data.table)
 library(RaggedExperiment)
 library(GenomicRanges)
-library(rtracklayer)
+#library(rtracklayer)
 
 # source("~/Code/Github/PharmacoGx-private/R/matchToIDTable.R")
 
-inputDir <- "/pfs/input/"
+inputDir <- "/pfs/input"
 outDir <- "/pfs/out"
 
 cellData <- read.csv(file.path(inputDir, "sample_info.csv")
